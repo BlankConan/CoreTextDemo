@@ -23,6 +23,9 @@
 		6656C41E272A9BC800963891 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656C41D272A9BC800963891 /* BaseView.m */; };
 		6656C421272A9BD100963891 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656C420272A9BD100963891 /* GreenView.m */; };
 		6656C424272A9BDE00963891 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656C423272A9BDE00963891 /* RedView.m */; };
+		665BD6B2273E4C3200A51A49 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665BD6B1273E4C3200A51A49 /* PickerViewController.m */; };
+		665BD6B5273E8DF400A51A49 /* CoreTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 665BD6B4273E8DF400A51A49 /* CoreTextVC.m */; };
+		665BD6B8273E928D00A51A49 /* UIView+FrameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 665BD6B7273E928D00A51A49 /* UIView+FrameAdjust.m */; };
 		66BAC0B727392E6400304F74 /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BAC0B627392E6400304F74 /* CTDisplayView.m */; };
 		66BAC0BA2739351700304F74 /* CTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BAC0B92739351700304F74 /* CTFrameParserConfig.m */; };
 		66BAC0BD2739352400304F74 /* CTFrameParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BAC0BC2739352400304F74 /* CTFrameParser.m */; };
@@ -60,6 +63,12 @@
 		6656C420272A9BD100963891 /* GreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
 		6656C422272A9BDE00963891 /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
 		6656C423272A9BDE00963891 /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		665BD6B0273E4C3200A51A49 /* PickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		665BD6B1273E4C3200A51A49 /* PickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		665BD6B3273E8DF400A51A49 /* CoreTextVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTextVC.h; sourceTree = "<group>"; };
+		665BD6B4273E8DF400A51A49 /* CoreTextVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextVC.m; sourceTree = "<group>"; };
+		665BD6B6273E928D00A51A49 /* UIView+FrameAdjust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameAdjust.h"; sourceTree = "<group>"; };
+		665BD6B7273E928D00A51A49 /* UIView+FrameAdjust.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameAdjust.m"; sourceTree = "<group>"; };
 		66BAC0B527392E6400304F74 /* CTDisplayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
 		66BAC0B627392E6400304F74 /* CTDisplayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTDisplayView.m; sourceTree = "<group>"; };
 		66BAC0B82739351700304F74 /* CTFrameParserConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTFrameParserConfig.h; sourceTree = "<group>"; };
@@ -106,6 +115,7 @@
 				6656C405272A8CE500963891 /* SceneDelegate.m */,
 				6656C407272A8CE500963891 /* ViewController.h */,
 				6656C408272A8CE500963891 /* ViewController.m */,
+				665BD6AF273E4C1B00A51A49 /* Picker */,
 				66BAC0B1273906B200304F74 /* Text */,
 				6656C41B272A9BB500963891 /* RespondViews */,
 				6656C40A272A8CE500963891 /* Main.storyboard */,
@@ -142,6 +152,15 @@
 			path = RespondViews;
 			sourceTree = "<group>";
 		};
+		665BD6AF273E4C1B00A51A49 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				665BD6B0273E4C3200A51A49 /* PickerViewController.h */,
+				665BD6B1273E4C3200A51A49 /* PickerViewController.m */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
 		66BAC0B1273906B200304F74 /* Text */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +172,10 @@
 				66BAC0BC2739352400304F74 /* CTFrameParser.m */,
 				66BAC0BE2739352D00304F74 /* CoreTextData.h */,
 				66BAC0BF2739352D00304F74 /* CoreTextData.m */,
+				665BD6B3273E8DF400A51A49 /* CoreTextVC.h */,
+				665BD6B4273E8DF400A51A49 /* CoreTextVC.m */,
+				665BD6B6273E928D00A51A49 /* UIView+FrameAdjust.h */,
+				665BD6B7273E928D00A51A49 /* UIView+FrameAdjust.m */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -228,9 +251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6656C409272A8CE500963891 /* ViewController.m in Sources */,
+				665BD6B8273E928D00A51A49 /* UIView+FrameAdjust.m in Sources */,
 				663B058E2731444E00E8BFB0 /* MarkGestureRecognizer.m in Sources */,
 				6656C403272A8CE500963891 /* AppDelegate.m in Sources */,
 				663B0588273114BC00E8BFB0 /* BlueView.m in Sources */,
+				665BD6B2273E4C3200A51A49 /* PickerViewController.m in Sources */,
 				663B05992733DC4400E8BFB0 /* TapGesture.m in Sources */,
 				6656C421272A9BD100963891 /* GreenView.m in Sources */,
 				6656C41E272A9BC800963891 /* BaseView.m in Sources */,
@@ -242,6 +267,7 @@
 				6656C424272A9BDE00963891 /* RedView.m in Sources */,
 				663B057F273011E900E8BFB0 /* TouchGesture.m in Sources */,
 				66BAC0C02739352D00304F74 /* CoreTextData.m in Sources */,
+				665BD6B5273E8DF400A51A49 /* CoreTextVC.m in Sources */,
 				66BAC0B727392E6400304F74 /* CTDisplayView.m in Sources */,
 				663B05962733D73A00E8BFB0 /* UITouch+TouchGesture.m in Sources */,
 			);
@@ -386,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SYPZW6XG23;
@@ -405,6 +432,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sina.weibo220553-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -415,9 +443,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SYPZW6XG23;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Test/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -431,8 +460,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sina.weibo220553-4";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sina.weibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

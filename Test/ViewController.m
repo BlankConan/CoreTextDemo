@@ -6,14 +6,11 @@
 //
 
 #import "ViewController.h"
-#import "GreenView.h"
-#import "RedView.h"
-#import "BlueView.h"
 
 #import "MarkGestureRecognizer.h"
 #import "CTDisplayView.h"
 
-
+#import "PickerViewController.h"
 
 @interface ViewController ()
 
@@ -31,28 +28,36 @@
     dview.backgroundColor = [UIColor greenColor];
     [self.view addSubview:dview];
     
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    PickerViewController *picker = [[PickerViewController alloc] init];
+    [self presentViewController:picker animated:YES completion:nil];
 }
 
 #pragma mark - CoreText
+
 
 
 #pragma mark - 响应链测试
 
 - (void)testResponder
 {
-    BaseView *view = [[BaseView alloc] init];
-    view.frame = CGRectMake(100, 100, 300, 300);
-    [self.view addSubview:view];
-    
-    RedView *rview = [[RedView alloc] init];
-    rview.frame = CGRectMake(50, 50, 200, 200);
-    [view addSubview:rview];
-
-    GreenView *gview = [[GreenView alloc] init];
-
-    gview.frame = CGRectMake(20, 20, 100, 100);
-//    gview.needTouch = YES;
-    [rview addSubview:gview];
+//    BaseView *view = [[BaseView alloc] init];
+//    view.frame = CGRectMake(100, 100, 300, 300);
+//    [self.view addSubview:view];
+//
+//    RedView *rview = [[RedView alloc] init];
+//    rview.frame = CGRectMake(50, 50, 200, 200);
+//    [view addSubview:rview];
+//
+//    GreenView *gview = [[GreenView alloc] init];
+//
+//    gview.frame = CGRectMake(20, 20, 100, 100);
+////    gview.needTouch = YES;
+//    [rview addSubview:gview];
 //
 //    BlueView *bview = [[BlueView alloc] init];
 //
