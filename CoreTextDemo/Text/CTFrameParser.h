@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (CoreTextData *)parseContent:(NSString *)content config:(CTFrameParserConfig*)config;
 
++ (CoreTextData *)parseTemplateFile:(NSString *)path config:(CTFrameParserConfig*)config;
 
 @end
 

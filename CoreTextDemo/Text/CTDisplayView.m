@@ -7,6 +7,7 @@
 
 #import "CTDisplayView.h"
 #import <CoreText/CoreText.h>
+#import "CTLayer.h"
 
 @interface CTDisplayView ()
 
@@ -14,11 +15,22 @@
 
 @implementation CTDisplayView
 
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.contentMode = UIViewContentModeRedraw;
+    }
+    return self;
+}
+
+//+(Class)layerClass
+//{
+//    return [CTLayer class];
+//}
 
 - (void)drawRect:(CGRect)rect
 {
-    [super drawRect:rect];
-    
     CGContextRef context = UIGraphicsGetCurrentContext();
     
     CGContextSetTextMatrix(context, CGAffineTransformIdentity);

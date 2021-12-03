@@ -7,11 +7,6 @@
 
 #import "ViewController.h"
 
-#import "MarkGestureRecognizer.h"
-#import "CTDisplayView.h"
-
-#import "PickerViewController.h"
-
 @interface ViewController ()
 
 @end
@@ -22,19 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    CTDisplayView *dview = [[CTDisplayView alloc] init];
-    dview.clipsToBounds = NO;
-    dview.frame = CGRectMake(50, 100, 320, 300);
-    dview.backgroundColor = [UIColor greenColor];
-    [self.view addSubview:dview];
-    
-    
-}
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
-    PickerViewController *picker = [[PickerViewController alloc] init];
-    [self presentViewController:picker animated:YES completion:nil];
 }
 
 #pragma mark - CoreText

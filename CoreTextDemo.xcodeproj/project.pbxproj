@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66135DED2755002100E3C8F0 /* CTLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66135DEC2755002100E3C8F0 /* CTLayer.m */; };
 		663B057F273011E900E8BFB0 /* TouchGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 663B057E273011E900E8BFB0 /* TouchGesture.m */; };
 		663B0588273114BC00E8BFB0 /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 663B0587273114BC00E8BFB0 /* BlueView.m */; };
 		663B058E2731444E00E8BFB0 /* MarkGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 663B058D2731444E00E8BFB0 /* MarkGestureRecognizer.m */; };
@@ -26,6 +27,7 @@
 		665BD6B2273E4C3200A51A49 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665BD6B1273E4C3200A51A49 /* PickerViewController.m */; };
 		665BD6B5273E8DF400A51A49 /* CoreTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 665BD6B4273E8DF400A51A49 /* CoreTextVC.m */; };
 		665BD6B8273E928D00A51A49 /* UIView+FrameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 665BD6B7273E928D00A51A49 /* UIView+FrameAdjust.m */; };
+		6673ACE3275864F300A9967B /* ccc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6673ACE2275864F300A9967B /* ccc.png */; };
 		66BAC0B727392E6400304F74 /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BAC0B627392E6400304F74 /* CTDisplayView.m */; };
 		66BAC0BA2739351700304F74 /* CTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BAC0B92739351700304F74 /* CTFrameParserConfig.m */; };
 		66BAC0BD2739352400304F74 /* CTFrameParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BAC0BC2739352400304F74 /* CTFrameParser.m */; };
@@ -33,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66135DEB2755002100E3C8F0 /* CTLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTLayer.h; sourceTree = "<group>"; };
+		66135DEC2755002100E3C8F0 /* CTLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTLayer.m; sourceTree = "<group>"; };
 		663B057D273011E900E8BFB0 /* TouchGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchGesture.h; sourceTree = "<group>"; };
 		663B057E273011E900E8BFB0 /* TouchGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchGesture.m; sourceTree = "<group>"; };
 		663B0586273114BC00E8BFB0 /* BlueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
@@ -69,6 +73,7 @@
 		665BD6B4273E8DF400A51A49 /* CoreTextVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextVC.m; sourceTree = "<group>"; };
 		665BD6B6273E928D00A51A49 /* UIView+FrameAdjust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameAdjust.h"; sourceTree = "<group>"; };
 		665BD6B7273E928D00A51A49 /* UIView+FrameAdjust.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameAdjust.m"; sourceTree = "<group>"; };
+		6673ACE2275864F300A9967B /* ccc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccc.png; sourceTree = "<group>"; };
 		66BAC0B527392E6400304F74 /* CTDisplayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
 		66BAC0B627392E6400304F74 /* CTDisplayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTDisplayView.m; sourceTree = "<group>"; };
 		66BAC0B82739351700304F74 /* CTFrameParserConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTFrameParserConfig.h; sourceTree = "<group>"; };
@@ -164,6 +169,9 @@
 		66BAC0B1273906B200304F74 /* Text */ = {
 			isa = PBXGroup;
 			children = (
+				6673ACE2275864F300A9967B /* ccc.png */,
+				665BD6B3273E8DF400A51A49 /* CoreTextVC.h */,
+				665BD6B4273E8DF400A51A49 /* CoreTextVC.m */,
 				66BAC0B527392E6400304F74 /* CTDisplayView.h */,
 				66BAC0B627392E6400304F74 /* CTDisplayView.m */,
 				66BAC0B82739351700304F74 /* CTFrameParserConfig.h */,
@@ -172,10 +180,10 @@
 				66BAC0BC2739352400304F74 /* CTFrameParser.m */,
 				66BAC0BE2739352D00304F74 /* CoreTextData.h */,
 				66BAC0BF2739352D00304F74 /* CoreTextData.m */,
-				665BD6B3273E8DF400A51A49 /* CoreTextVC.h */,
-				665BD6B4273E8DF400A51A49 /* CoreTextVC.m */,
 				665BD6B6273E928D00A51A49 /* UIView+FrameAdjust.h */,
 				665BD6B7273E928D00A51A49 /* UIView+FrameAdjust.m */,
+				66135DEB2755002100E3C8F0 /* CTLayer.h */,
+				66135DEC2755002100E3C8F0 /* CTLayer.m */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 				6656C411272A8CE600963891 /* LaunchScreen.storyboard in Resources */,
 				6656C40E272A8CE600963891 /* Assets.xcassets in Resources */,
 				6656C40C272A8CE500963891 /* Main.storyboard in Resources */,
+				6673ACE3275864F300A9967B /* ccc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +261,7 @@
 			files = (
 				6656C409272A8CE500963891 /* ViewController.m in Sources */,
 				665BD6B8273E928D00A51A49 /* UIView+FrameAdjust.m in Sources */,
+				66135DED2755002100E3C8F0 /* CTLayer.m in Sources */,
 				663B058E2731444E00E8BFB0 /* MarkGestureRecognizer.m in Sources */,
 				6656C403272A8CE500963891 /* AppDelegate.m in Sources */,
 				663B0588273114BC00E8BFB0 /* BlueView.m in Sources */,

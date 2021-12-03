@@ -28,7 +28,6 @@
     CoreTextData *data = [CTFrameParser parseContent:@"按照以上原则，我们将`CTDisplayView`中的部分内容拆开。" config:config];
     self.ctView.data = data;
     self.ctView.height = data.height;
-    self.ctView.backgroundColor = [UIColor yellowColor];
     
 }
 
